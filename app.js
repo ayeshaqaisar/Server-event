@@ -14,7 +14,7 @@ require('dotenv').config();
 const User=require('./models/person');
 //const Event=require('./models/event');
 const PORT = process.env.PORT || 3000;
-const DB_NAME = 'even'        // later change it according to database
+const DB_NAME = 'events'        // later change it according to database
 const MONGO_DB_URI = `mongodb+srv://dscnitp_webdept_muckin:dscnitp_webdept_muckin@cluster0.kokfw.gcp.mongodb.net/project2?retryWrites=true&w=majority`;
 mongoose.connect( MONGO_DB_URI , 
   {
