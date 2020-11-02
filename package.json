@@ -1,0 +1,43 @@
+{
+  "name": "server-event",
+  "version": "1.0.0",
+  "description": "",
+  
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayeshaqaisar/Server-event.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayeshaqaisar/Server-event/issues"
+  },
+  "homepage": "https://github.com/ayeshaqaisar/Server-event#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.3",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "sanitize": "^2.1.0",
+    "sanitizer": "^0.1.3",
+    "string-sanitizer": "^1.1.1",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "validation-utils": "^4.0.2",
+    "validator": "^13.1.17"
+  }
+}
